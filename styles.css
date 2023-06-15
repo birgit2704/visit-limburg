@@ -1,0 +1,126 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+  text-align: center;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: "Balsamiq Sans", cursive;
+  background: #e5e5e5;
+}
+
+main {
+  width: 720px;
+  margin: 20px auto;
+  background: #ffffff;
+  padding-bottom: 1px;
+  border-radius: 30px;
+  overflow: hidden;
+  border: 8px solid white;
+}
+
+.hero-section {
+  background-image: url("images/limburg.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  padding-top: 222px;
+  color: #ffffff;
+  text-shadow: 0 0 4px black;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.hero-title {
+  width: 220px;
+  margin: 0 auto;
+  padding: 5px 12px;
+  background: rgb(192, 59, 7, 0.7);
+
+  border-radius: 10px;
+  font-size: 32px;
+}
+.hero-text {
+  margin: 20px auto 0;
+  padding: 5px 28px;
+  width: 355px;
+  background: rgb(138, 120, 90, 0.8);
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.activity-section {
+  padding: 39px 0;
+  margin-top: 0;
+  background: #f1faee;
+  color: #1d3557;
+}
+.activity-title {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 34px;
+  font-size: 24px;
+}
+.activities-container {
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+}
+.activity-container {
+  width: 200px;
+  margin: 0 16px;
+}
+.activity-img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.activity-title2 {
+  font-weight: 700;
+}
+.activity-text {
+  font-weight: 400;
+}
+
+.guide-section {
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 400px;
+  background: rgb(250, 188, 85, 0.5);
+  box-shadow: 0px 6px 0px #1d3557;
+  border-radius: 10px;
+  color: #1d3557;
+  text-shadow: 0 0 1px #1d3557;
+}
+.guide-photo {
+  width: 180px;
+  margin: 23px 0px 23px 13px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.guide-info {
+  margin: 40px 5px;
+}
+.guide-title {
+  font-size: 24px;
+  margin-bottom: 14px;
+}
+.guide-text {
+  margin-top: 0;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18px;
+}
+.guide-name {
+  font-weight: 700;
+  font-size: 18px;
+}
