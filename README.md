@@ -2,6 +2,8 @@
 
 made during the scrimba course
 
+![screenshot](screenshot.jpg)
+
 Quick start:
 
 ```
