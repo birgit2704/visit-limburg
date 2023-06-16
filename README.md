@@ -1,6 +1,6 @@
 # visit-limburg
 
-made during the scrimba course
+made during the scrimba Frontend Deveoper Career Path
 
 ![screenshot](screenshot.jpg)
 
